@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextDatabase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="texts.xsd" Version="4.22.1">
+  <Languages>
+    <Language Id="GB" />
+  </Languages>
+  <Texts>
+    <TextGroup Id="Unsorted">
+      <Text Id="__SingleUse_LT7T" Alignment="Left" TypographyId="UX_Light">
+        <Translation Language="GB">-180</Translation>
+      </Text>
+      <Text Id="__SingleUse_25TK" Alignment="Left" TypographyId="UX_Light">
+        <Translation Language="GB">-180</Translation>
+      </Text>
+      <Text Id="__SingleUse_TG10" Alignment="Left" TypographyId="UX_Light">
+        <Translation Language="GB">-180</Translation>
+      </Text>
+      <Text Id="__SingleUse_AIYX" Alignment="Left" TypographyId="UX_Light">
+        <Translation Language="GB">-180</Translation>
+      </Text>
+      <Text Id="__SingleUse_2020" Alignment="Left" TypographyId="UX_Light">
+        <Translation Language="GB">-180</Translation>
+      </Text>
+      <Text Id="__SingleUse_OZB7" Alignment="Right" TypographyId="UX_GraphLabel">
+        <Translation Language="GB">0</Translation>
+      </Text>
+      <Text Id="__SingleUse_NHCL" Alignment="Center" TypographyId="UX_Med">
+        <Translation Language="GB">OK</Translation>
+      </Text>
+      <Text Id="__SingleUse_9G98" Alignment="Center" TypographyId="UX_Medium">
+        <Translation Language="GB">Análise abortada!</Translation>
+      </Text>
+      <Text Id="__SingleUse_BWZU" Alignment="Center" TypographyId="UX_Medium">
+        <Translation Language="GB">Sistema de arquivos formatado&#10;com sucesso!</Translation>
+      </Text>
+      <Text Id="__SingleUse_X257" Alignment="Center" TypographyId="UX_Med">
+        <Translation Language="GB">OK</Translation>
+      </Text>
+      <Text Id="__SingleUse_S5N9" Alignment="Center" TypographyId="UX_Light">
+        <Translation Language="GB">Formatar FS</Translation>
+      </Text>
+      <Text Id="__SingleUse_0FCT" Alignment="Left" TypographyId="UX_Light">
+        <Translation Language="GB">10</Translation>
+      </Text>
+      <Text Id="__SingleUse_KYRH" Alignment="Left" TypographyId="UX_Light">
+        <Translation Language="GB">50</Translation>
+      </Text>
+      <Text Id="__SingleUse_JDRI" Alignment="Left" TypographyId="UX_Light">
+        <Translation Language="GB">100</Translation>
+      </Text>
+      <Text Id="__SingleUse_KFIB" Alignment="Left" TypographyId="UX_Light">
+        <Translation Language="GB">200</Translation>
+      </Text>
+      <Text Id="__SingleUse_OOVY" Alignment="Left" TypographyId="UX_Light">
+        <Translation Language="GB">1</Translation>
+      </Text>
+      <Text Id="__SingleUse_ANSR" Alignment="Center" TypographyId="UX_Medium">
+        <Translation Language="GB">O Bode Analyzer foi desenvolvido como um &#10;Trabalho de Conclusão para o curso de &#10;Engenharia de Controle e Automação em 2023&#10;&#10;Paulo Miyoshi Pecegueiro - SP3023672&#10;Paulo Miyoshi Pecegueiro - SP3030849&#10;&#10;</Translation>
+      </Text>
+      <Text Id="__SingleUse_1Q9Q" Alignment="Left" TypographyId="UX_Big">
+        <Translation Language="GB">Sobre</Translation>
+      </Text>
+      <Text Id="__SingleUse_EDH2" Alignment="Center" TypographyId="UX_Light">
+        <Translation Language="GB">Voltar ao início</Translation>
+      </Text>
+      <Text Id="__SingleUse_Q8SQ" Alignment="Center" TypographyId="UX_Light">
+        <Translation Language="GB">Exibir Último Gráfico</Translation>
+      </Text>
+      <Text Id="__SingleUse_L7ZK" Alignment="Left" TypographyId="UX_GraphLabel">
+        <Translation Language="GB">1000Hz</Translation>
+      </Text>
+      <Text Id="__SingleUse_Z7L5" Alignment="Left" TypographyId="UX_GraphLabel">
+        <Translation Language="GB">100Hz</Translation>
+      </Text>
+      <Text Id="__SingleUse_AKWK" Alignment="Left" TypographyId="UX_GraphLabel">
+        <Translation Language="GB">10Hz</Translation>
+      </Text>
+      <Text Id="__SingleUse_IL7C" Alignment="Left" TypographyId="UX_GraphLabel">
+        <Translation Language="GB">1Hz</Translation>
+      </Text>
+      <Text Id="__SingleUse_14KI" Alignment="Right" TypographyId="UX_GraphLabel">
+        <Translation Language="GB">&lt;value&gt;°</Translation>
+      </Text>
+      <Text Id="__SingleUse_H51F" Alignment="Right" TypographyId="UX_GraphLabel">
+        <Translation Language="GB">&lt;value&gt;°</Translation>
+      </Text>
+      <Text Id="__SingleUse_PLFC" Alignment="Right" TypographyId="UX_GraphLabel">
+        <Translation Language="GB">&lt;value&gt;°</Translation>
+      </Text>
+      <Text Id="__SingleUse_4RWJ" Alignment="Right" TypographyId="UX_GraphLabel">
+        <Translation Language="GB">&lt;value&gt;°</Translation>
+      </Text>
+      <Text Id="__SingleUse_618T" Alignment="Right" TypographyId="UX_GraphLabel">
+        <Translation Language="GB">&lt;value&gt;°</Translation>
+      </Text>
+      <Text Id="__SingleUse_DQ1J" Alignment="Right" TypographyId="UX_GraphLabel">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_E1QO" Alignment="Right" TypographyId="UX_GraphLabel">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_IKO5" Alignment="Right" TypographyId="UX_GraphLabel">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_TAOG" Alignment="Right" TypographyId="UX_GraphLabel">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_VU2Z" Alignment="Center" TypographyId="UX_Small">
+        <Translation Language="GB">Fase</Translation>
+      </Text>
+      <Text Id="__SingleUse_5QP2" Alignment="Center" TypographyId="UX_Small">
+        <Translation Language="GB">Magnitude (dB)</Translation>
+      </Text>
+      <Text Id="__SingleUse_HS4W" Alignment="Center" TypographyId="UX_Light">
+        <Translation Language="GB">Voltar ao início</Translation>
+      </Text>
+      <Text Id="__SingleUse_LE4O" Alignment="Left" TypographyId="UX_Medium">
+        <Translation Language="GB">Aquisição finalizada, preparando resultados...</Translation>
+      </Text>
+      <Text Id="__SingleUse_UZK2" Alignment="Left" TypographyId="UX_Medium">
+        <Translation Language="GB">Testando dispositivo... Década &lt;value&gt;/4</Translation>
+      </Text>
+      <Text Id="__SingleUse_51M2" Alignment="Left" TypographyId="UX_Medium">
+        <Translation Language="GB">Aguardando período transitório dos filtros...</Translation>
+      </Text>
+      <Text Id="__SingleUse_70NV" Alignment="Left" TypographyId="UX_Medium">
+        <Translation Language="GB">Ativando os filtros...</Translation>
+      </Text>
+      <Text Id="__SingleUse_6AX0" Alignment="Center" TypographyId="UX_Big">
+        <Translation Language="GB">&lt;&gt; %</Translation>
+      </Text>
+      <Text Id="__SingleUse_I4V0" Alignment="Left" TypographyId="UX_Big">
+        <Translation Language="GB">Testando Dispositivo</Translation>
+      </Text>
+      <Text Id="__SingleUse_TGWZ" Alignment="Center" TypographyId="UX_Light">
+        <Translation Language="GB">Abortar Aquisição</Translation>
+      </Text>
+      <Text Id="__SingleUse_CGEM" Alignment="Left" TypographyId="UX_Medium">
+        <Translation Language="GB">1: 20000 Hz</Translation>
+      </Text>
+      <Text Id="__SingleUse_742E" Alignment="Center" TypographyId="UX_Medium">
+        <Translation Language="GB">3.3Vpp</Translation>
+      </Text>
+      <Text Id="__SingleUse_EG4G" Alignment="Left" TypographyId="UX_Medium">
+        <Translation Language="GB">Frequências analizadas:</Translation>
+      </Text>
+      <Text Id="__SingleUse_SJGM" Alignment="Left" TypographyId="UX_Medium">
+        <Translation Language="GB">Amplitude de saída:</Translation>
+      </Text>
+      <Text Id="__SingleUse_NUNC" Alignment="Left" TypographyId="UX_Medium">
+        <Translation Language="GB">Compensar filtros e amplificadores:</Translation>
+      </Text>
+      <Text Id="__SingleUse_ICJ9" Alignment="Center" TypographyId="UX_Light">
+        <Translation Language="GB">Iniciar Aquisição</Translation>
+      </Text>
+      <Text Id="__SingleUse_GQ0J" Alignment="Center" TypographyId="UX_Light">
+        <Translation Language="GB">Voltar ao início</Translation>
+      </Text>
+      <Text Id="__SingleUse_276V" Alignment="Left" TypographyId="UX_Big">
+        <Translation Language="GB">Configurações de Aquisição</Translation>
+      </Text>
+      <Text Id="__SingleUse_6L2C" Alignment="Left" TypographyId="UX_Big">
+        <Translation Language="GB">Bode Analyzer</Translation>
+      </Text>
+      <Text Id="__SingleUse_CW3G" Alignment="Center" TypographyId="UX_Light">
+        <Translation Language="GB">Sobre</Translation>
+      </Text>
+      <Text Id="__SingleUse_7Y3E" Alignment="Center" TypographyId="UX_Light">
+        <Translation Language="GB">Bode Analyzer</Translation>
+      </Text>
+      <Text Id="__SingleUse_X00Q" Alignment="Center" TypographyId="UX_Med">
+        <Translation Language="GB">Paulo Miyoshi Pecegueiro | Paulo Miyoshi Pecegueiro</Translation>
+      </Text>
+      <Text Id="__SingleUse_KX37" Alignment="Left" TypographyId="UX_BigBig">
+        <Translation Language="GB">Bode Analyzer</Translation>
+      </Text>
+      <Text Id="__SingleUse_DO9D" Alignment="Left" TypographyId="UX_GraphLabel">
+        <Translation Language="GB">1000Hz</Translation>
+      </Text>
+      <Text Id="__SingleUse_N26R" Alignment="Left" TypographyId="UX_GraphLabel">
+        <Translation Language="GB">100Hz</Translation>
+      </Text>
+      <Text Id="__SingleUse_WHLB" Alignment="Left" TypographyId="UX_GraphLabel">
+        <Translation Language="GB">10Hz</Translation>
+      </Text>
+      <Text Id="__SingleUse_5ON3" Alignment="Left" TypographyId="UX_GraphLabel">
+        <Translation Language="GB">1Hz</Translation>
+      </Text>
+      <Text Id="__SingleUse_HRGW" Alignment="Left" TypographyId="UX_GraphLabel">
+        <Translation Language="GB">-150°</Translation>
+      </Text>
+      <Text Id="__SingleUse_YAHC" Alignment="Left" TypographyId="UX_GraphLabel">
+        <Translation Language="GB">-120°</Translation>
+      </Text>
+      <Text Id="__SingleUse_GPQI" Alignment="Left" TypographyId="UX_GraphLabel">
+        <Translation Language="GB">-90°</Translation>
+      </Text>
+      <Text Id="__SingleUse_AAY3" Alignment="Left" TypographyId="UX_GraphLabel">
+        <Translation Language="GB">-60°</Translation>
+      </Text>
+      <Text Id="__SingleUse_02ZM" Alignment="Left" TypographyId="UX_GraphLabel">
+        <Translation Language="GB">-30°</Translation>
+      </Text>
+      <Text Id="__SingleUse_NBOI" Alignment="Left" TypographyId="UX_GraphLabel">
+        <Translation Language="GB">0°</Translation>
+      </Text>
+      <Text Id="__SingleUse_OUXW" Alignment="Center" TypographyId="UX_Small">
+        <Translation Language="GB">Fase</Translation>
+      </Text>
+      <Text Id="__SingleUse_DS3T" Alignment="Center" TypographyId="UX_Small">
+        <Translation Language="GB">Magnitude (dB)</Translation>
+      </Text>
+      <Text Id="__SingleUse_H0WA" Alignment="Left" TypographyId="UX_GraphLabel">
+        <Translation Language="GB">1000Hz</Translation>
+      </Text>
+      <Text Id="__SingleUse_V6ZH" Alignment="Left" TypographyId="UX_GraphLabel">
+        <Translation Language="GB">100Hz</Translation>
+      </Text>
+      <Text Id="__SingleUse_R6BY" Alignment="Left" TypographyId="UX_GraphLabel">
+        <Translation Language="GB">10Hz</Translation>
+      </Text>
+      <Text Id="__SingleUse_4Y3G" Alignment="Left" TypographyId="UX_GraphLabel">
+        <Translation Language="GB">1Hz</Translation>
+      </Text>
+      <Text Id="__SingleUse_GNVD" Alignment="Left" TypographyId="UX_GraphLabel">
+        <Translation Language="GB">-150°</Translation>
+      </Text>
+      <Text Id="__SingleUse_UV7W" Alignment="Left" TypographyId="UX_GraphLabel">
+        <Translation Language="GB">-120°</Translation>
+      </Text>
+      <Text Id="__SingleUse_ZS1K" Alignment="Left" TypographyId="UX_GraphLabel">
+        <Translation Language="GB">-90°</Translation>
+      </Text>
+      <Text Id="__SingleUse_E8X8" Alignment="Left" TypographyId="UX_GraphLabel">
+        <Translation Language="GB">-60°</Translation>
+      </Text>
+      <Text Id="__SingleUse_6RXY" Alignment="Left" TypographyId="UX_GraphLabel">
+        <Translation Language="GB">-30°</Translation>
+      </Text>
+      <Text Id="__SingleUse_J74W" Alignment="Left" TypographyId="UX_GraphLabel">
+        <Translation Language="GB">0°</Translation>
+      </Text>
+      <Text Id="__SingleUse_N4T5" Alignment="Left" TypographyId="UX_GraphLabel">
+        <Translation Language="GB">10</Translation>
+      </Text>
+      <Text Id="__SingleUse_DRNH" Alignment="Left" TypographyId="UX_GraphLabel">
+        <Translation Language="GB">10</Translation>
+      </Text>
+      <Text Id="__SingleUse_P5H6" Alignment="Left" TypographyId="UX_GraphLabel">
+        <Translation Language="GB">10</Translation>
+      </Text>
+      <Text Id="__SingleUse_WKEJ" Alignment="Left" TypographyId="UX_GraphLabel">
+        <Translation Language="GB">10</Translation>
+      </Text>
+      <Text Id="__SingleUse_CA1N" Alignment="Center" TypographyId="UX_Small">
+        <Translation Language="GB">Fase</Translation>
+      </Text>
+      <Text Id="__SingleUse_TFTW" Alignment="Center" TypographyId="UX_Small">
+        <Translation Language="GB">Magnitude (dB)</Translation>
+      </Text>
+      <Text Id="__SingleUse_HZVL" Alignment="Center" TypographyId="UX_Med">
+        <Translation Language="GB">OK</Translation>
+      </Text>
+      <Text Id="__SingleUse_4MRV" Alignment="Center" TypographyId="UX_Medium">
+        <Translation Language="GB">Análise abortada!</Translation>
+      </Text>
+      <Text Id="__SingleUse_WSUC" Alignment="Center" TypographyId="UX_Med">
+        <Translation Language="GB">OK</Translation>
+      </Text>
+      <Text Id="__SingleUse_7UUG" Alignment="Center" TypographyId="UX_Medium">
+        <Translation Language="GB">Nova calibração registrada &#10;com sucesso!</Translation>
+      </Text>
+      <Text Id="__SingleUse_NKQC" Alignment="Center" TypographyId="UX_Medium">
+        <Translation Language="GB">Aguarde!&#10;&#10;Realizando calibração...</Translation>
+      </Text>
+      <Text Id="__SingleUse_Q77J" Alignment="Center" TypographyId="UX_Light">
+        <Translation Language="GB">Salvar Calibração</Translation>
+      </Text>
+      <Text Id="__SingleUse_MMZE" Alignment="Center" TypographyId="UX_Light">
+        <Translation Language="GB">Descartar Calibração</Translation>
+      </Text>
+      <Text Id="__SingleUse_CAH8" Alignment="Center" TypographyId="UX_Light">
+        <Translation Language="GB">Cancelar</Translation>
+      </Text>
+      <Text Id="__SingleUse_JDKR" Alignment="Center" TypographyId="UX_Light">
+        <Translation Language="GB">Iniciar Calibração</Translation>
+      </Text>
+      <Text Id="__SingleUse_L0IC" Alignment="Center" TypographyId="UX_Medium">
+        <Translation Language="GB">O processo de calibração afetará diretamente&#10;a qualidade dos resultados das aquisições.&#10;Em caso de problemas, restaure a calibração&#10;padrão no menu de configurações.&#10;Para proceder com a calibração, conecte o&#10;sinal da saída diretamente na entrada.</Translation>
+      </Text>
+      <Text Id="__SingleUse_XG0L" Alignment="Left" TypographyId="UX_Big">
+        <Translation Language="GB">Atenção!</Translation>
+      </Text>
+      <Text Id="__SingleUse_97XW" Alignment="Center" TypographyId="UX_Light">
+        <Translation Language="GB">Exportar dados</Translation>
+      </Text>
+      <Text Id="__SingleUse_HI72" Alignment="Center" TypographyId="UX_Med">
+        <Translation Language="GB">Paulo Miyoshi Pecegueiro | Paulo Miyoshi Pecegueiro</Translation>
+      </Text>
+      <Text Id="__SingleUse_SLVC" Alignment="Left" TypographyId="UX_BigBig">
+        <Translation Language="GB">Bode Analyzer </Translation>
+      </Text>
+      <Text Id="__SingleUse_J4LF" Alignment="Center" TypographyId="UX_Med">
+        <Translation Language="GB">OK</Translation>
+      </Text>
+      <Text Id="__SingleUse_EHZK" Alignment="Center" TypographyId="UX_Medium">
+        <Translation Language="GB">Calibração restaurada com&#10;sucesso!</Translation>
+      </Text>
+      <Text Id="__SingleUse_TH7S" Alignment="Left" TypographyId="UX_Medium">
+        <Translation Language="GB">Dados exportados com sucesso!</Translation>
+      </Text>
+      <Text Id="__SingleUse_VHFH" Alignment="Center" TypographyId="UX_Med">
+        <Translation Language="GB">OK</Translation>
+      </Text>
+      <Text Id="__SingleUse_6USU" Alignment="Left" TypographyId="UX_Med">
+        <Translation Language="GB">Exibir o gráfico da última aquisição</Translation>
+      </Text>
+      <Text Id="__SingleUse_IUYJ" Alignment="Left" TypographyId="UX_Med">
+        <Translation Language="GB">Exportar dados da última aquisição</Translation>
+      </Text>
+      <Text Id="__SingleUse_VOA7" Alignment="Left" TypographyId="UX_Med">
+        <Translation Language="GB">Restaurar valores padrões de calibração</Translation>
+      </Text>
+      <Text Id="__SingleUse_QSD9" Alignment="Left" TypographyId="UX_Med">
+        <Translation Language="GB">Realizar calibração do dispositivo</Translation>
+      </Text>
+      <Text Id="__SingleUse_2SDS" Alignment="Center" TypographyId="UX_Light">
+        <Translation Language="GB">Exportar Dados</Translation>
+      </Text>
+      <Text Id="__SingleUse_YIA0" Alignment="Center" TypographyId="UX_Light">
+        <Translation Language="GB">Exibir Último Gráfico</Translation>
+      </Text>
+      <Text Id="__SingleUse_EN9F" Alignment="Center" TypographyId="UX_Light">
+        <Translation Language="GB">Restaurar Calibração</Translation>
+      </Text>
+      <Text Id="__SingleUse_P6L5" Alignment="Center" TypographyId="UX_Light">
+        <Translation Language="GB">Calibrar</Translation>
+      </Text>
+      <Text Id="__SingleUse_61IV" Alignment="Center" TypographyId="UX_Medium">
+        <Translation Language="GB">O Bode Analyzer foi desenvolvido como um &#10;Trabalho de Conclusão para o curso de &#10;Engenharia de Controle e Automação em 2023&#10;&#10;Paulo Miyoshi Pecegueiro - SP3023672&#10;Paulo Miyoshi Pecegueiro - SP3030849&#10;&#10;</Translation>
+      </Text>
+      <Text Id="__SingleUse_ZNI6" Alignment="Center" TypographyId="UX_Light">
+        <Translation Language="GB">Voltar ao início</Translation>
+      </Text>
+      <Text Id="__SingleUse_Z9WD" Alignment="Center" TypographyId="UX_Light">
+        <Translation Language="GB">Voltar ao início</Translation>
+      </Text>
+      <Text Id="__SingleUse_84WU" Alignment="Left" TypographyId="UX_Big">
+        <Translation Language="GB">Sobre</Translation>
+      </Text>
+      <Text Id="__SingleUse_30XT" Alignment="Left" TypographyId="UX_Big">
+        <Translation Language="GB">Configurações do Dispositivo</Translation>
+      </Text>
+      <Text Id="__SingleUse_DFJL" Alignment="Left" TypographyId="UX_Big">
+        <Translation Language="GB">Testando Dispositivo</Translation>
+      </Text>
+      <Text Id="__SingleUse_VQLH" Alignment="Left" TypographyId="UX_Medium">
+        <Translation Language="GB">1 : 20000 Hz</Translation>
+      </Text>
+      <Text Id="__SingleUse_CHPW" Alignment="Left" TypographyId="UX_Medium">
+        <Translation Language="GB">1.5 Vpp</Translation>
+      </Text>
+      <Text Id="__SingleUse_Y2NL" Alignment="Left" TypographyId="UX_Medium">
+        <Translation Language="GB">Frequências analizadas:</Translation>
+      </Text>
+      <Text Id="__SingleUse_A613" Alignment="Left" TypographyId="UX_Medium">
+        <Translation Language="GB">Compensar filtros e amplificadores:</Translation>
+      </Text>
+      <Text Id="__SingleUse_D7E4" Alignment="Left" TypographyId="UX_Medium">
+        <Translation Language="GB">Amplitude de saída:</Translation>
+      </Text>
+      <Text Id="__SingleUse_5WGD" Alignment="Left" TypographyId="UX_Big">
+        <Translation Language="GB">Configurações de Aquisição</Translation>
+      </Text>
+      <Text Id="__SingleUse_K5QU" Alignment="Center" TypographyId="UX_Light">
+        <Translation Language="GB">Voltar ao início</Translation>
+      </Text>
+      <Text Id="__SingleUse_LU2E" Alignment="Center" TypographyId="UX_Light">
+        <Translation Language="GB">Iniciar Aquisição</Translation>
+      </Text>
+      <Text Id="__SingleUse_YT8T" Alignment="Left" TypographyId="UX_Medium">
+        <Translation Language="GB">1</Translation>
+      </Text>
+      <Text Id="__SingleUse_FR6Y" Alignment="Left" TypographyId="UX_Medium">
+        <Translation Language="GB">Aquisição finalizada, preparando resultados...</Translation>
+      </Text>
+      <Text Id="__SingleUse_41XB" Alignment="Left" TypographyId="UX_Medium">
+        <Translation Language="GB">Testando dispositivo... Década &lt;value&gt;/4</Translation>
+      </Text>
+      <Text Id="__SingleUse_5A6L" Alignment="Left" TypographyId="UX_Medium">
+        <Translation Language="GB">Aguardando período transitório dos filtros...</Translation>
+      </Text>
+      <Text Id="__SingleUse_XTKA" Alignment="Left" TypographyId="UX_Medium">
+        <Translation Language="GB">Ativando os filtros...</Translation>
+      </Text>
+      <Text Id="__SingleUse_LTDY" Alignment="Center" TypographyId="UX_Big">
+        <Translation Language="GB">&lt;&gt; %</Translation>
+      </Text>
+      <Text Id="__SingleUse_8CR1" Alignment="Center" TypographyId="UX_Light">
+        <Translation Language="GB">Abortar Aquisição</Translation>
+      </Text>
+      <Text Id="__SingleUse_LT5J" Alignment="Center" TypographyId="UX_Light">
+        <Translation Language="GB">Voltar ao início</Translation>
+      </Text>
+      <Text Id="__SingleUse_73Q4" Alignment="Left" TypographyId="UX_Big">
+        <Translation Language="GB">Bode Analyzer </Translation>
+      </Text>
+      <Text Id="__SingleUse_4KB0" Alignment="Center" TypographyId="UX_Light">
+        <Translation Language="GB">Sobre</Translation>
+      </Text>
+      <Text Id="__SingleUse_LIEQ" Alignment="Center" TypographyId="UX_Light">
+        <Translation Language="GB">Configurações</Translation>
+      </Text>
+      <Text Id="__SingleUse_G1TU" Alignment="Center" TypographyId="UX_Light">
+        <Translation Language="GB">Gerador de Sinais</Translation>
+      </Text>
+      <Text Id="__SingleUse_A5J3" Alignment="Center" TypographyId="UX_Light">
+        <Translation Language="GB">Bode Analyzer</Translation>
+      </Text>
+    </TextGroup>
+  </Texts>
+  <Typographies>
+    <Typography Id="UX_Light" Font="OpenSans-Light.ttf" Size="20" Bpp="4" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="UX_Big" Font="OpenSans-Bold.ttf" Size="39" Bpp="4" Direction="LTR" FallbackCharacter="?" WidgetWildcardCharacters="0123456789." />
+    <Typography Id="UX_Medium" Font="OpenSans-Regular.ttf" Size="30" Bpp="4" Direction="LTR" FallbackCharacter="?" WildcardCharacters="1234" />
+    <Typography Id="UX_Small" Font="OpenSans-Light.ttf" Size="19" Bpp="4" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="UX_Med" Font="OpenSans-Light.ttf" Size="21" Bpp="4" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="UX_BigBig" Font="OpenSans-Bold.ttf" Size="55" Bpp="4" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="UX_GraphLabel" Font="OpenSans-Bold.ttf" Size="11" Bpp="4" Direction="LTR" FallbackCharacter="?" WildcardCharacters="-1234567890" />
+  </Typographies>
+</TextDatabase>

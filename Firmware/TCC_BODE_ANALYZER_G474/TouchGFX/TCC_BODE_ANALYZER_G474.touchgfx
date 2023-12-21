@@ -1,0 +1,1730 @@
+{
+  "Application": {
+    "Screens": [
+      {
+        "Name": "Startup",
+        "Components": [
+          {
+            "Type": "Box",
+            "Name": "Background",
+            "Width": 800,
+            "Height": 480,
+            "Color": {
+              "Red": 52,
+              "Green": 70,
+              "Blue": 82
+            }
+          },
+          {
+            "Type": "Box",
+            "Name": "boxTitleBack",
+            "Width": 800,
+            "Height": 104,
+            "Color": {
+              "Red": 216,
+              "Green": 229,
+              "Blue": 247
+            }
+          },
+          {
+            "Type": "Box",
+            "Name": "bocBackground",
+            "X": 94,
+            "Y": 439,
+            "Width": 615,
+            "Height": 41,
+            "Color": {
+              "Red": 73,
+              "Green": 101,
+              "Blue": 117
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "lblTitle",
+            "X": 197,
+            "Y": 18,
+            "Width": 393,
+            "Height": 75,
+            "TextId": "__SingleUse_KX37",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 89,
+              "Green": 88,
+              "Blue": 92
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "lblNames",
+            "X": 183,
+            "Y": 445,
+            "Width": 472,
+            "Height": 29,
+            "TextId": "__SingleUse_X00Q",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 216,
+              "Green": 229,
+              "Blue": 247
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "Image",
+            "Name": "imgSTlogo",
+            "X": 94,
+            "Y": 210,
+            "Width": 120,
+            "Height": 120,
+            "RelativeFilename": "st_logo.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "imgIfsp",
+            "X": 300,
+            "Y": 170,
+            "Width": 200,
+            "Height": 200,
+            "RelativeFilename": "ifsp_logo.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "imgMiyoshi",
+            "X": 589,
+            "Y": 210,
+            "Width": 120,
+            "Height": 120,
+            "RelativeFilename": "miyoshi_logo.png"
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "TransitionEnds",
+            "Trigger": {
+              "Type": "TriggerScreenEntered"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "ApplicationStart"
+            }
+          },
+          {
+            "InteractionName": "JumpToMainMenu",
+            "Trigger": {
+              "Type": "TriggerWhen",
+              "ActionCustomTypeName": "Call Startup JumpToMainMenu"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "MainMenu"
+            }
+          },
+          {
+            "InteractionName": "LogoPresentationDelay",
+            "Trigger": {
+              "Type": "TriggerOnEveryTick",
+              "TickCount": 180
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "LogoPresentationDelayElapsed"
+            }
+          }
+        ],
+        "CustomActions": [
+          {
+            "Name": "JumpToMainMenu"
+          }
+        ]
+      },
+      {
+        "Name": "MainMenu",
+        "Components": [
+          {
+            "Type": "Box",
+            "Name": "Background",
+            "Width": 800,
+            "Height": 480,
+            "Color": {
+              "Red": 52,
+              "Green": 70,
+              "Blue": 82
+            }
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "btnAbout",
+            "X": 72,
+            "Y": 400,
+            "Width": 240,
+            "Height": 50,
+            "Pressed": "button2.png",
+            "Released": "button1.png",
+            "TextId": "__SingleUse_CW3G",
+            "ReleasedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "PressedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "TextRotation": "0"
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "btnFormatFS",
+            "X": 72,
+            "Y": 320,
+            "Width": 240,
+            "Height": 50,
+            "Pressed": "button2.png",
+            "Released": "button1.png",
+            "TextId": "__SingleUse_S5N9",
+            "ReleasedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "PressedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "TextRotation": "0"
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "btnShowGraphs",
+            "X": 72,
+            "Y": 240,
+            "Width": 240,
+            "Height": 50,
+            "Pressed": "button2.png",
+            "Released": "button1.png",
+            "TextId": "__SingleUse_Q8SQ",
+            "ReleasedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "PressedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "TextRotation": "0"
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "btnBodeAnalyzer",
+            "X": 72,
+            "Y": 160,
+            "Width": 240,
+            "Height": 50,
+            "Pressed": "button2.png",
+            "Released": "button1.png",
+            "TextId": "__SingleUse_7Y3E",
+            "ReleasedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "PressedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "TextRotation": "0"
+          },
+          {
+            "Type": "Box",
+            "Name": "boxTitleBack",
+            "Y": 23,
+            "Width": 463,
+            "Height": 74,
+            "Color": {
+              "Red": 216,
+              "Green": 229,
+              "Blue": 247
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "lblTitle",
+            "X": 87,
+            "Y": 36,
+            "Width": 279,
+            "Height": 53,
+            "TextId": "__SingleUse_6L2C",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 89,
+              "Green": 88,
+              "Blue": 92
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "Image",
+            "Name": "IFSP_LOGO",
+            "X": 480,
+            "Y": 121,
+            "Width": 200,
+            "Height": 200,
+            "RelativeFilename": "ifsp_logo.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "MIYOSHI_LOGO",
+            "X": 620,
+            "Y": 330,
+            "Width": 120,
+            "Height": 120,
+            "RelativeFilename": "miyoshi_logo.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "ST_LOGO",
+            "X": 420,
+            "Y": 330,
+            "Width": 120,
+            "Height": 120,
+            "RelativeFilename": "st_logo.png"
+          },
+          {
+            "Type": "CustomContainerInstance",
+            "Name": "formatEnd1",
+            "X": 147,
+            "Y": 115,
+            "Width": 507,
+            "Height": 251,
+            "Visible": false,
+            "CustomContainerDefinitionName": "FormatEnd"
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "TransitionEnds",
+            "Trigger": {
+              "Type": "TriggerScreenEntered"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "TransitionEnds"
+            }
+          },
+          {
+            "InteractionName": "BodeAnalyzer_Click",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "btnBodeAnalyzer"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "BodeAnalyzer_Click"
+            }
+          },
+          {
+            "InteractionName": "About_Click",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "btnAbout"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "About_Click"
+            }
+          },
+          {
+            "InteractionName": "GoToBodeAnalyzer_Action",
+            "Trigger": {
+              "Type": "TriggerWhen",
+              "ActionCustomTypeName": "Call MainMenu GoToBodeAnalyzer"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "AcquisitionSettings"
+            }
+          },
+          {
+            "InteractionName": "GoToAbout_Action",
+            "Trigger": {
+              "Type": "TriggerWhen",
+              "ActionCustomTypeName": "Call MainMenu GoToAbout"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "About"
+            }
+          },
+          {
+            "InteractionName": "ShowGraphs_Click",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "btnShowGraphs"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "ShowGraphs_Click"
+            }
+          },
+          {
+            "InteractionName": "GoToGraphs_Action",
+            "Trigger": {
+              "Type": "TriggerWhen",
+              "ActionCustomTypeName": "Call MainMenu GoToGraphs"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "GraphicsScreen"
+            }
+          },
+          {
+            "InteractionName": "FormatFS_Click",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "btnFormatFS"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "FormatFS_Click"
+            }
+          },
+          {
+            "InteractionName": "HideFSContainer",
+            "Trigger": {
+              "Type": "TriggerCustom",
+              "TriggerCustomTypeName": "FormatEnd CloseContainer happens",
+              "TriggerComponent": "formatEnd1"
+            },
+            "Action": {
+              "Type": "ActionHide",
+              "ActionComponent": "formatEnd1"
+            }
+          }
+        ],
+        "CustomActions": [
+          {
+            "Name": "GoToGraphs"
+          },
+          {
+            "Name": "GoToBodeAnalyzer"
+          },
+          {
+            "Name": "GoToAbout"
+          }
+        ]
+      },
+      {
+        "Name": "AcquisitionSettings",
+        "Components": [
+          {
+            "Type": "Box",
+            "Name": "Background",
+            "Width": 800,
+            "Height": 480,
+            "Color": {
+              "Red": 52,
+              "Green": 70,
+              "Blue": 82
+            }
+          },
+          {
+            "Type": "Box",
+            "Name": "boxBackground",
+            "X": 21,
+            "Y": 61,
+            "Width": 756,
+            "Height": 363,
+            "Color": {
+              "Red": 73,
+              "Green": 101,
+              "Blue": 117
+            }
+          },
+          {
+            "Type": "Box",
+            "Name": "boxTitleBack",
+            "X": 107,
+            "Y": 24,
+            "Width": 587,
+            "Height": 74,
+            "Color": {
+              "Red": 216,
+              "Green": 229,
+              "Blue": 247
+            }
+          },
+          {
+            "Type": "Box",
+            "Name": "boxAmplitude",
+            "X": 536,
+            "Y": 226,
+            "Width": 184,
+            "Height": 40,
+            "Color": {
+              "Red": 216,
+              "Green": 229,
+              "Blue": 247
+            }
+          },
+          {
+            "Type": "Box",
+            "Name": "boxFrequencies",
+            "X": 536,
+            "Y": 310,
+            "Width": 184,
+            "Height": 40,
+            "Color": {
+              "Red": 216,
+              "Green": 229,
+              "Blue": 247
+            }
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "btnStartAcq",
+            "X": 80,
+            "Y": 399,
+            "Width": 240,
+            "Height": 50,
+            "Pressed": "button2.png",
+            "Released": "button1.png",
+            "TextId": "__SingleUse_ICJ9",
+            "ReleasedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "PressedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "TextRotation": "0"
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "btnBack",
+            "X": 480,
+            "Y": 399,
+            "Width": 240,
+            "Height": 50,
+            "Pressed": "button2.png",
+            "Released": "button1.png",
+            "TextId": "__SingleUse_GQ0J",
+            "ReleasedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "PressedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "TextRotation": "0"
+          },
+          {
+            "Type": "ToggleButton",
+            "Name": "toggleButton1",
+            "X": 580,
+            "Y": 145,
+            "Width": 97,
+            "Height": 37,
+            "InitialStatePressed": true,
+            "Pressed": "dragBtnON.png",
+            "Released": "dragBtnOFF.png"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "lblTitle",
+            "X": 130,
+            "Y": 37,
+            "Width": 535,
+            "Height": 48,
+            "TextId": "__SingleUse_276V",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 89,
+              "Green": 88,
+              "Blue": 92
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "lblCompensation",
+            "X": 38,
+            "Y": 140,
+            "Width": 498,
+            "Height": 37,
+            "TextId": "__SingleUse_NUNC",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 216,
+              "Green": 229,
+              "Blue": 247
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "lblAmplitude",
+            "X": 148,
+            "Y": 225,
+            "Width": 278,
+            "Height": 37,
+            "TextId": "__SingleUse_SJGM",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 216,
+              "Green": 229,
+              "Blue": 247
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "lblAmplitude2",
+            "X": 580,
+            "Y": 228,
+            "Width": 96,
+            "Height": 37,
+            "TextId": "__SingleUse_742E",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 90,
+              "Green": 89,
+              "Blue": 93
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "lblFrequencies",
+            "X": 121,
+            "Y": 310,
+            "Width": 332,
+            "Height": 37,
+            "TextId": "__SingleUse_EG4G",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 216,
+              "Green": 229,
+              "Blue": 247
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "lblFrequencies2",
+            "X": 547,
+            "Y": 310,
+            "Width": 162,
+            "Height": 37,
+            "TextId": "__SingleUse_CGEM",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 90,
+              "Green": 89,
+              "Blue": 93
+            },
+            "AutoSize": true
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "TransitionEnds",
+            "Trigger": {
+              "Type": "TriggerScreenEntered"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "TransitionEnds"
+            }
+          },
+          {
+            "InteractionName": "StartAqcuisition_Click",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "btnStartAcq"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "StartAqcuisition_Click"
+            }
+          },
+          {
+            "InteractionName": "Back_Click",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "btnBack"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "Back_Click"
+            }
+          },
+          {
+            "InteractionName": "GoToAcquiring_Action",
+            "Trigger": {
+              "Type": "TriggerWhen",
+              "ActionCustomTypeName": "Call AcquisitionSettings GoToAcquiring"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "Acquiring"
+            }
+          },
+          {
+            "InteractionName": "GoToMainMenu_Action",
+            "Trigger": {
+              "Type": "TriggerWhen",
+              "ActionCustomTypeName": "Call AcquisitionSettings GoToMainMenu"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "MainMenu"
+            }
+          }
+        ],
+        "CustomActions": [
+          {
+            "Name": "GoToAcquiring"
+          },
+          {
+            "Name": "GoToMainMenu"
+          }
+        ]
+      },
+      {
+        "Name": "Acquiring",
+        "Components": [
+          {
+            "Type": "Box",
+            "Name": "Background",
+            "Width": 800,
+            "Height": 480,
+            "Color": {
+              "Red": 52,
+              "Green": 70,
+              "Blue": 82
+            }
+          },
+          {
+            "Type": "Box",
+            "Name": "boxBackground",
+            "X": 21,
+            "Y": 44,
+            "Width": 758,
+            "Height": 393,
+            "Color": {
+              "Red": 73,
+              "Green": 101,
+              "Blue": 117
+            }
+          },
+          {
+            "Type": "Box",
+            "Name": "boxTitleBack",
+            "X": 107,
+            "Y": 24,
+            "Width": 587,
+            "Height": 74,
+            "Color": {
+              "Red": 216,
+              "Green": 229,
+              "Blue": 247
+            }
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "btnAbort",
+            "X": 280,
+            "Y": 370,
+            "Width": 240,
+            "Height": 50,
+            "Pressed": "button2.png",
+            "Released": "button1.png",
+            "TextId": "__SingleUse_TGWZ",
+            "ReleasedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "PressedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "TextRotation": "0"
+          },
+          {
+            "Type": "ImageProgress",
+            "Name": "imgProgress",
+            "X": 75,
+            "Y": 263,
+            "Width": 650,
+            "Height": 20,
+            "FileNameProgress": "progressBar2.png",
+            "AnchorAtZero": true,
+            "Direction": "Right",
+            "FileNameBackground": "progressBar.png",
+            "IndicatorPositionX": 2,
+            "IndicatorPositionY": 2,
+            "IndicatorPositionWidth": 646,
+            "IndicatorPositionHeight": 16,
+            "ProgressRangeMax": 100
+          },
+          {
+            "Type": "TextProgress",
+            "Name": "txtProgress",
+            "X": 313,
+            "Y": 297,
+            "Width": 175,
+            "Height": 50,
+            "TextId": "__SingleUse_6AX0",
+            "Color": {
+              "Red": 216,
+              "Green": 229,
+              "Blue": 247
+            },
+            "FileNameBackground": "button3.png",
+            "IndicatorPositionX": 12,
+            "IndicatorPositionY": 1,
+            "IndicatorPositionWidth": 150,
+            "IndicatorPositionHeight": 42,
+            "ProgressRangeMax": 100
+          },
+          {
+            "Type": "TextArea",
+            "Name": "lblTitle",
+            "X": 197,
+            "Y": 37,
+            "Width": 406,
+            "Height": 48,
+            "TextId": "__SingleUse_I4V0",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 89,
+              "Green": 88,
+              "Blue": 92
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "lblFilterON",
+            "X": 262,
+            "Y": 157,
+            "Width": 277,
+            "Height": 37,
+            "TextId": "__SingleUse_70NV",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 216,
+              "Green": 229,
+              "Blue": 247
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "lblFilterSettingTime",
+            "X": 93,
+            "Y": 157,
+            "Width": 614,
+            "Height": 37,
+            "Visible": false,
+            "TextId": "__SingleUse_51M2",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 216,
+              "Green": 229,
+              "Blue": 247
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "lblTestingDevice",
+            "X": 161,
+            "Y": 157,
+            "Width": 478,
+            "Height": 37,
+            "Visible": false,
+            "TextId": "__SingleUse_UZK2",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 216,
+              "Green": 229,
+              "Blue": 247
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_OOVY",
+              "UseBuffer": true,
+              "BufferSize": 2
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "lblTestDone",
+            "X": 82,
+            "Y": 157,
+            "Width": 637,
+            "Height": 37,
+            "Visible": false,
+            "TextId": "__SingleUse_LE4O",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 216,
+              "Green": 229,
+              "Blue": 247
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "CustomContainerInstance",
+            "Name": "acquisitionAborted1",
+            "X": 147,
+            "Y": 115,
+            "Width": 507,
+            "Height": 251,
+            "Visible": false,
+            "CustomContainerDefinitionName": "AcquisitionAborted"
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "TransitionEnds",
+            "Trigger": {
+              "Type": "TriggerScreenEntered"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "TransitionEnds"
+            }
+          },
+          {
+            "InteractionName": "Abort_Click",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "btnAbort"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "Abort_Click"
+            }
+          },
+          {
+            "InteractionName": "Ok_Click",
+            "Trigger": {
+              "Type": "TriggerCustom",
+              "TriggerCustomTypeName": "AcquisitionAborted CloseContainer happens",
+              "TriggerComponent": "acquisitionAborted1"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "Ok_Click"
+            }
+          },
+          {
+            "InteractionName": "GoToMainMenu_Action",
+            "Trigger": {
+              "Type": "TriggerWhen",
+              "ActionCustomTypeName": "Call Acquiring GoToMainMenu"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "MainMenu"
+            }
+          },
+          {
+            "InteractionName": "GoToGraphs_Action",
+            "Trigger": {
+              "Type": "TriggerWhen",
+              "ActionCustomTypeName": "Call Acquiring GoToGraphs"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "GraphicsScreen"
+            }
+          },
+          {
+            "InteractionName": "ScreenTick",
+            "Trigger": {
+              "Type": "TriggerOnEveryTick",
+              "TickCount": 30
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "ScreenTick"
+            }
+          }
+        ],
+        "CustomActions": [
+          {
+            "Name": "GoToGraphs"
+          },
+          {
+            "Name": "GoToMainMenu"
+          }
+        ]
+      },
+      {
+        "Name": "GraphicsScreen",
+        "CanvasBufferSize": 12000,
+        "Components": [
+          {
+            "Type": "Box",
+            "Name": "Background",
+            "Width": 800,
+            "Height": 480,
+            "Color": {
+              "Red": 52,
+              "Green": 70,
+              "Blue": 82
+            }
+          },
+          {
+            "Type": "Image",
+            "Name": "imgGraph",
+            "X": 30,
+            "Y": 30,
+            "Width": 740,
+            "Height": 370,
+            "RelativeFilename": "Graphic.png"
+          },
+          {
+            "Type": "StaticGraph",
+            "Name": "PhaseGraph",
+            "X": 49,
+            "Y": 210,
+            "Width": 715,
+            "Height": 171,
+            "DataSeed": 90472674,
+            "NumberOfValues": 100,
+            "MaxX": 715.0,
+            "PrecisionX": "1",
+            "MaxY": 181.0,
+            "MinY": -181.0,
+            "PrecisionY": "0.0001",
+            "XAxisScale": 1.0,
+            "GraphDrawers": [
+              {
+                "Type": "LineDrawer",
+                "LineWidth": 2,
+                "FileNameImage": "",
+                "Color": {
+                  "Red": 255
+                }
+              }
+            ],
+            "YAxisGrid": {
+              "Type": "GraphGrid",
+              "Color": {
+                "Red": 145,
+                "Green": 172,
+                "Blue": 181
+              },
+              "Interval": 90.0,
+              "LineWidth": 1
+            }
+          },
+          {
+            "Type": "StaticGraph",
+            "Name": "MagnitudeGraph",
+            "X": 50,
+            "Y": 36,
+            "Width": 715,
+            "Height": 171,
+            "DataSeed": -1212063329,
+            "NumberOfValues": 100,
+            "MaxX": 715.0,
+            "PrecisionX": "1",
+            "MaxY": 1.0,
+            "MinY": -100.0,
+            "PrecisionY": "0.0001",
+            "XAxisScale": 1.0,
+            "GraphDrawers": [
+              {
+                "Type": "LineDrawer",
+                "LineWidth": 2,
+                "FileNameImage": "",
+                "Color": {
+                  "Red": 255
+                }
+              }
+            ],
+            "YAxisGrid": {
+              "Type": "GraphGrid",
+              "Color": {
+                "Red": 145,
+                "Green": 172,
+                "Blue": 181
+              },
+              "Interval": 24.0,
+              "LineWidth": 1
+            }
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "btnBack",
+            "X": 275,
+            "Y": 415,
+            "Width": 240,
+            "Height": 50,
+            "Pressed": "button2.png",
+            "Released": "button1.png",
+            "TextId": "__SingleUse_HS4W",
+            "ReleasedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "PressedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "TextRotation": "0"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "lblMagnitude",
+            "X": 3,
+            "Y": 30,
+            "Width": 170,
+            "Height": 180,
+            "TextId": "__SingleUse_5QP2",
+            "TextRotation": "270",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "lblPhase",
+            "X": 3,
+            "Y": 205,
+            "Width": 170,
+            "Height": 180,
+            "TextId": "__SingleUse_VU2Z",
+            "TextRotation": "270",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "lblMag0",
+            "X": 34,
+            "Y": 35,
+            "Width": 31,
+            "Height": 40,
+            "TextId": "__SingleUse_OZB7",
+            "TextRotation": "270"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "lblMag1",
+            "X": 34,
+            "Y": 70,
+            "Width": 31,
+            "Height": 40,
+            "TextId": "__SingleUse_TAOG",
+            "TextRotation": "270",
+            "Wildcard1": {
+              "TextId": "__SingleUse_0FCT",
+              "UseBuffer": true,
+              "BufferSize": 10
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "lblMag2",
+            "X": 34,
+            "Y": 110,
+            "Width": 31,
+            "Height": 40,
+            "TextId": "__SingleUse_IKO5",
+            "TextRotation": "270",
+            "Alpha": 254,
+            "Wildcard1": {
+              "TextId": "__SingleUse_KYRH",
+              "UseBuffer": true,
+              "BufferSize": 10
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "lblMag3",
+            "X": 34,
+            "Y": 150,
+            "Width": 31,
+            "Height": 40,
+            "TextId": "__SingleUse_E1QO",
+            "TextRotation": "270",
+            "Wildcard1": {
+              "TextId": "__SingleUse_JDRI",
+              "UseBuffer": true,
+              "BufferSize": 10
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "lblMag4",
+            "X": 34,
+            "Y": 184,
+            "Width": 31,
+            "Height": 40,
+            "TextId": "__SingleUse_DQ1J",
+            "TextRotation": "270",
+            "Wildcard1": {
+              "TextId": "__SingleUse_KFIB",
+              "UseBuffer": true,
+              "BufferSize": 10
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "lblPhase1",
+            "X": 34,
+            "Y": 205,
+            "Width": 31,
+            "Height": 40,
+            "TextId": "__SingleUse_618T",
+            "TextRotation": "270",
+            "Wildcard1": {
+              "TextId": "__SingleUse_2020",
+              "UseBuffer": true,
+              "BufferSize": 10
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "lblPhase2",
+            "X": 34,
+            "Y": 239,
+            "Width": 31,
+            "Height": 40,
+            "TextId": "__SingleUse_4RWJ",
+            "TextRotation": "270",
+            "Wildcard1": {
+              "TextId": "__SingleUse_AIYX",
+              "UseBuffer": true,
+              "BufferSize": 10
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "lblPhase3",
+            "X": 34,
+            "Y": 281,
+            "Width": 31,
+            "Height": 40,
+            "TextId": "__SingleUse_PLFC",
+            "TextRotation": "270",
+            "Wildcard1": {
+              "TextId": "__SingleUse_TG10",
+              "UseBuffer": true,
+              "BufferSize": 10
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "lblPhase4",
+            "X": 34,
+            "Y": 322,
+            "Width": 31,
+            "Height": 40,
+            "TextId": "__SingleUse_H51F",
+            "TextRotation": "270",
+            "Wildcard1": {
+              "TextId": "__SingleUse_25TK",
+              "UseBuffer": true,
+              "BufferSize": 10
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "lblPhase5",
+            "X": 34,
+            "Y": 361,
+            "Width": 31,
+            "Height": 40,
+            "TextId": "__SingleUse_14KI",
+            "TextRotation": "270",
+            "Wildcard1": {
+              "TextId": "__SingleUse_LT7T",
+              "UseBuffer": true,
+              "BufferSize": 10
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "lblFrequency1",
+            "X": 48,
+            "Y": 383,
+            "Width": 19,
+            "Height": 15,
+            "TextId": "__SingleUse_IL7C",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "lblFrequency2",
+            "X": 219,
+            "Y": 383,
+            "Width": 25,
+            "Height": 15,
+            "TextId": "__SingleUse_AKWK",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "lblFrequency3",
+            "X": 395,
+            "Y": 383,
+            "Width": 31,
+            "Height": 15,
+            "TextId": "__SingleUse_Z7L5",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "lblFrequency4",
+            "X": 571,
+            "Y": 383,
+            "Width": 37,
+            "Height": 15,
+            "TextId": "__SingleUse_L7ZK",
+            "TextRotation": "0",
+            "AutoSize": true
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "TransitionEnds",
+            "Trigger": {
+              "Type": "TriggerScreenEntered"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "TransitionEnds"
+            }
+          },
+          {
+            "InteractionName": "Back_Click",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "btnBack"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "Back_Click"
+            }
+          },
+          {
+            "InteractionName": "BackToMain_Action",
+            "Trigger": {
+              "Type": "TriggerWhen",
+              "ActionCustomTypeName": "Call GraphicsScreen BackToMain"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "MainMenu"
+            }
+          }
+        ],
+        "CustomActions": [
+          {
+            "Name": "BackToMain"
+          }
+        ]
+      },
+      {
+        "Name": "About",
+        "Components": [
+          {
+            "Type": "Box",
+            "Name": "Background",
+            "Width": 800,
+            "Height": 480,
+            "Color": {
+              "Red": 52,
+              "Green": 70,
+              "Blue": 82
+            }
+          },
+          {
+            "Type": "Box",
+            "Name": "boxBackground",
+            "X": 21,
+            "Y": 61,
+            "Width": 756,
+            "Height": 363,
+            "Color": {
+              "Red": 73,
+              "Green": 101,
+              "Blue": 117
+            }
+          },
+          {
+            "Type": "Box",
+            "Name": "boxTitleBack",
+            "X": 107,
+            "Y": 24,
+            "Width": 587,
+            "Height": 74,
+            "Color": {
+              "Red": 216,
+              "Green": 229,
+              "Blue": 247
+            }
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "btnBack",
+            "X": 279,
+            "Y": 407,
+            "Width": 240,
+            "Height": 50,
+            "Pressed": "button2.png",
+            "Released": "button1.png",
+            "TextId": "__SingleUse_EDH2",
+            "ReleasedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "PressedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "TextRotation": "0"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "lblTitle",
+            "X": 345,
+            "Y": 37,
+            "Width": 111,
+            "Height": 48,
+            "TextId": "__SingleUse_1Q9Q",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 89,
+              "Green": 88,
+              "Blue": 92
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "lblMessage",
+            "X": 42,
+            "Y": 131,
+            "Width": 717,
+            "Height": 250,
+            "TextId": "__SingleUse_ANSR",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 216,
+              "Green": 229,
+              "Blue": 247
+            }
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "TransitionEnds",
+            "Trigger": {
+              "Type": "TriggerScreenEntered"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "TransitionEnds"
+            }
+          },
+          {
+            "InteractionName": "Back_Click",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "btnBack"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "Back_Click"
+            }
+          },
+          {
+            "InteractionName": "GoToMainMenu_Action",
+            "Trigger": {
+              "Type": "TriggerWhen",
+              "ActionCustomTypeName": "Call About GoToMainMenu"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "MainMenu"
+            }
+          }
+        ],
+        "CustomActions": [
+          {
+            "Name": "GoToMainMenu"
+          }
+        ]
+      }
+    ],
+    "CustomContainerDefinitions": [
+      {
+        "Name": "FormatEnd",
+        "X": -13,
+        "Y": 271,
+        "Width": 507,
+        "Height": 251,
+        "Components": [
+          {
+            "Type": "Box",
+            "Name": "boxBackground",
+            "Width": 507,
+            "Height": 251,
+            "Color": {
+              "Red": 216,
+              "Green": 229,
+              "Blue": 247
+            }
+          },
+          {
+            "Type": "Image",
+            "Name": "imgWarning",
+            "X": 217,
+            "Y": 17,
+            "Width": 72,
+            "Height": 68,
+            "RelativeFilename": "__generated\\icon_theme_images_alert_warning_72_68_59585C.svg.png"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "lblMessage",
+            "X": 30,
+            "Y": 92,
+            "Width": 447,
+            "Height": 74,
+            "TextId": "__SingleUse_BWZU",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 89,
+              "Green": 88,
+              "Blue": 92
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "btnOk",
+            "X": 133,
+            "Y": 183,
+            "Width": 240,
+            "Height": 50,
+            "Pressed": "button2.png",
+            "Released": "button1.png",
+            "TextId": "__SingleUse_X257",
+            "ReleasedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "PressedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "TextRotation": "0"
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Ok_Click",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "btnOk"
+            },
+            "Action": {
+              "Type": "ActionEmit",
+              "TriggerCustomTypeName": "FormatEnd CloseContainer happens"
+            }
+          }
+        ],
+        "CustomTriggers": [
+          {
+            "Name": "CloseContainer"
+          }
+        ]
+      },
+      {
+        "Name": "AcquisitionAborted",
+        "X": -13,
+        "Y": 271,
+        "Width": 507,
+        "Height": 251,
+        "Components": [
+          {
+            "Type": "Box",
+            "Name": "boxBackground",
+            "Width": 507,
+            "Height": 251,
+            "Color": {
+              "Red": 216,
+              "Green": 229,
+              "Blue": 247
+            }
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "btnOk",
+            "X": 133,
+            "Y": 183,
+            "Width": 240,
+            "Height": 50,
+            "Pressed": "button2.png",
+            "Released": "button1.png",
+            "TextId": "__SingleUse_NHCL",
+            "ReleasedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "PressedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "TextRotation": "0"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "lblMessage",
+            "X": 131,
+            "Y": 107,
+            "Width": 245,
+            "Height": 37,
+            "TextId": "__SingleUse_9G98",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 89,
+              "Green": 88,
+              "Blue": 92
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "Image",
+            "Name": "imgWarning",
+            "X": 217,
+            "Y": 17,
+            "Width": 72,
+            "Height": 68,
+            "RelativeFilename": "__generated\\icon_theme_images_alert_warning_72_68_59585C.svg.png"
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Ok_Click",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "btnOk"
+            },
+            "Action": {
+              "Type": "ActionEmit",
+              "TriggerCustomTypeName": "AcquisitionAborted CloseContainer happens"
+            }
+          }
+        ],
+        "CustomTriggers": [
+          {
+            "Name": "CloseContainer"
+          }
+        ]
+      }
+    ],
+    "Name": "MyApplication",
+    "Resolution": {
+      "Width": 480,
+      "Height": 800
+    },
+    "SelectedColorDepth": 16,
+    "StartupScreenName": "Startup",
+    "SelectedStartupLanguage": "GB",
+    "TouchGfxPath": "../Middlewares/ST/touchgfx",
+    "UIPath": ".",
+    "AvailableColorDepths": [
+      16
+    ],
+    "AvailableLCDs": {
+      "16": "LCD16bppSerialFlash"
+    },
+    "AvailableSections": [
+      "ExtFlashSection",
+      "IntFlashSection"
+    ],
+    "AvailableResolutions": [
+      {
+        "Width": 480,
+        "Height": 800
+      }
+    ],
+    "PhysicalButtons": [],
+    "FrameworkFeatures": {
+      "LCD16bppSerialFlash": {
+        "Id": "LCD16bppSerialFlash",
+        "IsEnabled": true
+      }
+    },
+    "GenerateAssetsCommand": "make -f simulator/gcc/Makefile assets -j8",
+    "PostGenerateCommand": "touchgfx update_project --project-file=simulator/msvs/Application.vcxproj",
+    "PostGenerateTargetCommand": "touchgfx update_project",
+    "CompileSimulatorCommand": "make -f simulator/gcc/Makefile -j8",
+    "RunSimulatorCommand": "build\\bin\\simulator.exe",
+    "LandscapeSkinX": 0,
+    "LandscapeSkinY": 0,
+    "PortraitSkinX": 0,
+    "PortraitSkinY": 0,
+    "DisplayOrientation": "Landscape",
+    "Family": "STM32G4",
+    "SubFamily": "STM32G4x4",
+    "Toolchain": "STM32CubeIDE",
+    "Platform": "m4",
+    "ProjectFile": "../TCC_BODE_ANALYZER_G474.ioc",
+    "OptionalComponentsRoot": "../Middlewares/ST/touchgfx_components",
+    "OptionalComponents": [],
+    "AdditionalFeatures": []
+  },
+  "Version": "4.22.1"
+}
